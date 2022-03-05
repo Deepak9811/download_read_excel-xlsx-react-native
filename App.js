@@ -1,8 +1,8 @@
 import { Text, StyleSheet, View, StatusBar, Button, PermissionsAndroid } from 'react-native';
 import React, { Component } from 'react';
 
-import RNFS, { writeFile, readFile } from 'react-native-fs';
-import XLSX from 'xlsx';
+// import RNFS, { writeFile, readFile } from 'react-native-fs';
+// import XLSX from 'xlsx';
 
 export default class App extends Component {
   constructor(props) {
@@ -12,6 +12,10 @@ export default class App extends Component {
       data: "deepak",
     }
   }
+
+
+
+
 
 
 
